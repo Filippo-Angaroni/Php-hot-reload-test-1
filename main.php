@@ -8,8 +8,24 @@
     <title>Document</title>
 </head>
 <body>
-    <?php echo "<h1>caa io</h1>"; ?>  
-    <h1>gt</h1>
+
+    <?php
+    
+        
+
+    ?>
+
+    <button onclick="Ciao()" style="width: 20%; height: 20px;"></button>
+    
+    <form action="mailsender.php" method="post">
+        <p>Your name: <input type="text" name="name" /></p>
+        <p><input type="submit" /></p>
+    </form>
+    <script>
+        function Ciao(){
+            
+        }
+    </script>
 
 </body>
 </html>
