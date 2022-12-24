@@ -8,7 +8,8 @@
     <title>Document</title>
 </head>
 <body>
-<?php echo "caio"; ?> 
+    <?php echo "<h1>caa io</h1>"; ?>  
+    <h1>gt</h1>
 
 </body>
 </html>
