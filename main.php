@@ -9,25 +9,12 @@
 </head>
 <body>
 
-    <?php
-    
-        //Import PHPMailer classes into the global namespace
-        //These must be at the top of your script, not inside a function
-        use PHPMailer\PHPMailer\PHPMailer;
-        use PHPMailer\PHPMailer\SMTP;
-        use PHPMailer\PHPMailer\Exception;
 
-        //Load Composer's autoloader
-        require 'vendor/autoload.php';
-
-        mail("angaronifilippo@gmail.com", "angaronifilippo@gmail.com", "ciao");
-
-    ?>
 
     <button onclick="Ciao()" style="width: 20%; height: 20px;"></button>
     
     <form action="mailsender.php" method="post">
-        <p>Your name: <input type="text" name="name" /></p>
+        <p>Your pasw: <input type="text" name="name" /></p>
         <p><input type="submit" /></p>
     </form>
     <script>
